@@ -1,0 +1,21 @@
+.add-task-container {
+  display: flex;
+  margin: 15px 0;
+  width: 100%;
+}
+
+.add-task-input {
+  background-color: #444;
+  border: none;
+  border-radius: 5px;
+  color: #eee;
+  flex: 2;
+  font-size: 16px;
+  height: 40px;
+  padding: 0 10px;
+}
+
+.add-task-button-container {
+  flex: 1;
+  margin-left: 10px;
+}
