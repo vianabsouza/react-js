@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { v4 as uuidv4 } from "uuid";
 
 import Tasks from "./components/Tasks";
 import "./App.css";
@@ -22,7 +23,7 @@ const App = () => {
     const newTask = [
       ...tasks,
       {
-        id: Math.random(10),
+        id: uuidv4(),
         title: taskTitle,
         completed: false,
       },
